@@ -40,8 +40,9 @@ $mahasiswa = [
     <ul>
         <?php foreach ($mahasiswa as $mhs) : ?>
             <li>
-                <a href="detail_data.php?nama=<?= $mhs["nama"]?>&nim=<?= $mhs["nim"]?>&jurusan=<?= $mhs["jurusan"]?>&email=<?= $mhs["email"]?>">
-                    <?= $mhs["nama"] ?></a>
+                <a href="detail_data.php?nama=<?= $mhs["nama"] ?>&nim=<?= $mhs["nim"] ?>&jurusan=<?= $mhs["jurusan"] ?>&email=<?= $mhs["email"] ?>&nilai1=<?= $mhs["nilai_tugas"][0] ?>&nilai2=<?= $mhs["nilai_tugas"][1] ?>&nilai3=<?= $mhs["nilai_tugas"][2] ?>">
+                    <?= $mhs["nama"] ?>
+                </a>
             </li>
         <?php endforeach ?>
     </ul>

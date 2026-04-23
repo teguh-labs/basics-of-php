@@ -24,7 +24,7 @@
                             <img src="logo-binas.png" alt="Logo ITB Binas" width="110">
                         </td>
                         <td width="60%" align="center">
-                            <font color="#ffffff" face="Arial" size="4"><b>DATA HASIL PEMBELAJARAN ANGGOTA</b></font><br>
+                            <font color="#ffffff" face="Arial" size="4"><b>DATA HASIL PEMBELAJARAN MAHASISWA</b></font><br>
                             <font color="#ffffff" face="Arial" size="2"><b>Himpunan Mahasiswa Manajemen Informatika</b></font><br>
                             <font color="#ffffff" face="Arial" size="2">ITB Bina Sriwijaya Palembang</font>
                         </td>
@@ -64,10 +64,15 @@
                         <td>:</td>
                         <td>
                             <ul>
-                                <li>Nilai Tugas 1 = </li>
-                                <li>Nilai Tugas 1 = </li>
-                                <li>Nilai Tugas 1 = </li>
+                                <li>Nilai Tugas 1 = <?= $_GET["nilai1"] ?> </li>
+                                <li>Nilai Tugas 2 = <?= $_GET["nilai2"] ?></li>
+                                <li>Nilai Tugas 3 = <?= $_GET["nilai3"]  ?></li>
                             </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <h3 style="text-align: center;">Selamat anda lulus</h3>
                         </td>
                     </tr>
                     <tr>
